@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "mc.craig.software.horse.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "MixinAbstractHorse",
+    "MixinEntity",
+    "MixinHorse",
+    "AbstractHorseAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
